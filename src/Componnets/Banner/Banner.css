@@ -1,0 +1,25 @@
+
+.wave-bg {
+    background-image: url(../../assest/wave-bg.svg);
+    display: block;
+    height: 220px;
+    width: 100vw;
+    transform-origin: top;
+    -webkit-animation:  2000ms cubic-bezier(.23,1,.32,1) forwards;
+    animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes animateWave{
+    0% {
+        transform: scale(1,0);
+    }
+    
+    100% {
+        transform: scale(1,1);
+    }
+    
+
+}
+
