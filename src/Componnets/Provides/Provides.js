@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { FaCalendarCheck, FaComment, FaHeadphones, FaPalette, FaPeopleArrows, FaPeopleCarry, FaTextHeight } from 'react-icons/fa';
+import { FaCalendarCheck, FaComment, FaHeadphones, FaPalette, } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Provides = () => {
